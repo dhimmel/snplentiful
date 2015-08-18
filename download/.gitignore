@@ -1,0 +1,5 @@
+# Downloading network from source is required
+graph.json.gz
+
+# Do not add 3G ExAC vcf download
+ExAC.r0.3.sites.vep.vcf.gz
