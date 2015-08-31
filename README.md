@@ -6,7 +6,7 @@
 
 SNP to gene translation is a hallmark of modern bioinformatics. Genomic technologies often produce data on the nucleotide level. Downstream analyses, however, often operate on the gene level. Therefore, condensing nucleotide-level measurements to a gene-based value is a common and essential practice.
 
-Many technologies and applications focus on single nucleotides that vary between individuals, which are called SNPs. Here, we investigate whether the number of SNPs contained by a gene is correlated with other types of gene centric information. Specifically, we evaluate whether the relationship between SNP abundance and network connectivity for a variety of network types.
+Many technologies and applications focus on single nucleotides that vary between individuals, which are called SNPs. Here, we investigate whether the number of SNPs contained by a gene is correlated with other types of gene centric information. Specifically, we evaluate the relationship between SNP abundance and network connectivity for a variety of network types.
 
 When translating measurements from SNP to gene, a skilled bioinformatician will appreciate the correlations uncovered herein. Why? Gene scores from SNP-based experimentation are often analyzed in the context of other gene based information sources. Frequently, such analyses assume independence of the two datasets. However, if the SNP-to-gene conversion is biased by SNP abundance — which generally occurs absent painstaking consideration and adjustment — independence ceases to exist.
 
