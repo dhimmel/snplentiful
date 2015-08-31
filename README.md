@@ -18,6 +18,14 @@ When translating measurements from SNP to gene, a skilled bioinformatician will 
 
 **Transformation:** Both SNP abundances and network degrees were transformed by adding 1 and taking the logarithm with base 10. Figure axes report untransformed values, but model fitting occurs on the tranformed data.
 
+## Results
+
+Correlations between SNP abundance and network degree are commonplace. These correlations affect genotyping arrays as well as sequencing indicating that effects are not solely due to biased coverage of genotyping arrays. Physical protein interactions — a popular input for GWAS prioritization techniques — shows less correlation than other types. However, GO annotations — a community favorite for gene set enrichment techniques — increase sharply with SNP abundance. Expression datasets also preferentially report genes with high SNP abundance.
+
+## Conclusions
+
+Beware! The potential for erroneous conclusions when gene scores are biased by SNP abundance is high. Ideally, permutation testing should be applied on the SNP level to ensure that SNP to gene conversion biases are the cause of any positive results. Since access to the raw SNP level data needed for permutation is often impractical or unavailable, care should be taken to use unbiased SNP to gene conversion methods.
+
 ## Figures
 
 <a name="fig1"></a>
