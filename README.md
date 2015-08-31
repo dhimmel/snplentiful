@@ -8,13 +8,19 @@ SNP to gene translation is a hallmark of modern bioinformatics. Genomic technolo
 
 Many technologies and applications focus on single nucleotides that vary between individuals, which are called SNPs. Here, we investigate whether the number of SNPs contained by a gene is correlated with other types of gene centric information. Specifically, we evaluate whether the relationship between SNP abundance and network connectivity for a variety of network types.
 
-When translating measurements from SNP to gene, a skilled bioinformatician will appreciate the correlations uncovered herein. Why? Gene scores from SNP-based experimentation are often analyzed in the context of other gene based information sources. Frequently, such analyses assume independence of the two datsets. However, if the SNP-to-gene conversion is biased by SNP abundance — which generally occurs absent painstaking consideration and adjustment — independence ceases to exist.
+When translating measurements from SNP to gene, a skilled bioinformatician will appreciate the correlations uncovered herein. Why? Gene scores from SNP-based experimentation are often analyzed in the context of other gene based information sources. Frequently, such analyses assume independence of the two datasets. However, if the SNP-to-gene conversion is biased by SNP abundance — which generally occurs absent painstaking consideration and adjustment — independence ceases to exist.
 
-![](figure/degree-v-snps.png?raw=true)
+## Method
 
-![](figure/adj-degree-v-snps.png?raw=true)
+**SNP abundance:** We calculated the number of SNPs per gene for 3 genotyping arrays ([Affymetrix 500K Set](http://www.affymetrix.com/catalog/131459/AFFY/Mapping+500K+Array+Set), [Illumina HumanHap550](https://support.illumina.com/array/array_kits/humanhap550-quad_plus_dna_analysis_kit.html), [Illumina HumanOmni1](https://support.illumina.com/array/array_kits/humanomni1-quad_beadchip_kit.html)), exome sequencing ([ExAC](http://exac.broadinstitute.org/)), and whole genome sequencing ([1000 Genomes Phase 3](http://www.1000genomes.org/announcements/initial-phase-3-variant-list-and-phased-genotypes-2014-06-24)). We limited analyses to [genes](https://dx.doi.org/10.6084/m9.figshare.103113) that were [consistent](http://www.gettinggeneticsdone.com/2011/06/mapping-snps-to-genes-for-gwas.html) between databases and extended each gene boundary by 10,000 basepairs in both directions. The 10,000 basepair window is frequently adopted to capture unmeasured but highly linked SNPs underlying the association and to cover nearby regulatory variants.
 
-![](figure/degree-v-snps-all.png?raw=true)
+## Figures
+
+![The number of SNPs in a gene varies with network degree](figure/degree-v-snps.png)
+
+![The number of SNPs in a gene varies with network degree](figure/adj-degree-v-snps.png)
+
+![The number of SNPs in a gene varies with network degree](figure/degree-v-snps-all.png)
 
 ## Execution
 
