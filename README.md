@@ -16,13 +16,21 @@ When translating measurements from SNP to gene, a skilled bioinformatician will 
 
 **Network degree:** Hetnets are networks with multiple types of nodes and edges. We extracted gene degrees from [hetio-ind](http://dx.doi.org/10.15363/thinklab.d102), a hetnet developed for drug repurposing. The network contained [26 types of edges](download/network-summary.tsv) (metaedges) that originate with a gene. Thus, for each gene we calculated 26 metaedge-specific degrees.
 
+**Transformation:** Both SNP abundances and network degrees were transformed by adding 1 and taking the logarithm with base 10. Figure axes report untransformed values, but model fitting occurs on the tranformed data.
+
 ## Figures
 
+<a name="fig1"></a>
 ![The number of SNPs in a gene varies with network degree](figure/degree-v-snps.png)
+**Figure 1: Network degree versus SNP abundance for common data types.** Platform and metaedge specific models were fit. Models are drawn as their 95% confidence band. The genes with extreme SNP abundances (bottom and two two percentiles) are omitted for visual clarity.
 
+<a name="fig2"></a>
 ![The number of SNPs in a gene varies with network degree](figure/adj-degree-v-snps.png)
+**Figure 2: Mean-adjusted network degree versus SNP abundance for common data types.** The same as [Figure 1](#fig1) except that degree was divided by the mean degree for each metaedge.
 
+<a name="fig3"></a>
 ![The number of SNPs in a gene varies with network degree](figure/degree-v-snps-all.png)
+**Figure 3: Network degree versus SNP abundance for all metaedges.** The same as [Figure 1](#fig1) except that all metaedges with over 1,000 edges are shown. Additionally, genes with extreme SNP abundances were not removed.
 
 ## Execution
 
