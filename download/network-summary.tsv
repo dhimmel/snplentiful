@@ -1,27 +1,27 @@
 metaedge	abbreviation	inverted	edges	source_nodes	target_nodes	unbiased
-gene - binding - compound	GbC	1	2502	572	554	0
+gene - participation - pathway	GpPW	0	79101	9511	1615	0
+gene - downregulation - compound	GdC	1	20312	923	748	20312
+gene - variation - disease	GvD	1	1284	926	91	1284
+gene - expression - anatomy	GeA	0	987862	18041	194	914193
+gene - downregulation - disease	GdD	1	674	664	3	674
+gene - participation - biological process	GpBP	0	534004	14533	11014	0
+gene < knockdown downregulation < gene	G<kdG	1	140942	957	4207	140942
 gene - upregulation - compound	GuC	1	17261	953	729	17261
 gene < knockdown upregulation < gene	G<kuG	1	78752	970	4068	78752
-gene - participation - biological process	GpBP	0	534004	14533	11014	0
-gene - upregulation - anatomy	GuA	0	97848	15929	36	97848
-gene - interaction - gene	GiG	0	297253	15211	15211	31575
-gene > overexpression downregulation > gene	God>G	0	14911	1660	830	14911
-gene - participation - cellular component	GpCC	0	65377	10269	1332	0
-gene > knockdown upregulation > gene	Gku>G	0	78752	4068	970	78752
-gene - target - compound	GtC	1	4603	1133	1182	0
-gene < knockdown downregulation < gene	G<kdG	1	140942	957	4207	140942
-gene > overexpression upregulation > gene	Gup>G	0	15292	1862	909	15292
-gene - function - disease	GfD	1	10193	3701	103	0
-gene < overexpression downregulation < gene	G<odG	1	14911	830	1660	14911
 gene - participation - molecular function	GpMF	0	93857	12890	2826	0
+gene > overexpression downregulation > gene	God>G	0	14911	1660	830	14911
 gene > knockdown downregulation > gene	Gkd>G	0	140942	4207	957	140942
-gene - regulation - perturbation	GrPB	0	366502	18245	3395	0
-gene < overexpression upregulation < gene	G<upG	1	15292	909	1862	15292
-gene - upregulation - disease	GuD	1	910	870	3	910
-gene - downregulation - anatomy	GdA	0	102240	15097	36	102240
-gene - expression - anatomy	GeA	0	987862	18041	194	914193
-gene - participation - pathway	GpPW	0	79101	9511	1615	0
+gene > overexpression upregulation > gene	Gup>G	0	15292	1862	909	15292
+gene - participation - cellular component	GpCC	0	65377	10269	1332	0
 gene - evolution - gene	GeG	0	123382	12453	12453	123382
-gene - downregulation - disease	GdD	1	674	664	3	674
-gene - downregulation - compound	GdC	1	20312	923	748	20312
-gene - association - disease	GaD	1	1284	926	91	1284
+gene - target - compound	GtC	1	4603	1133	1182	0
+gene < overexpression downregulation < gene	G<odG	1	14911	830	1660	14911
+gene - upregulation - anatomy	GuA	0	97848	15929	36	97848
+gene - regulation - perturbation	GrPB	0	366502	18245	3395	0
+gene - upregulation - disease	GuD	1	910	870	3	910
+gene < overexpression upregulation < gene	G<upG	1	15292	909	1862	15292
+gene - binding - compound	GbC	1	2502	572	554	0
+gene - association - disease	GaD	1	11824	5067	134	0
+gene > knockdown upregulation > gene	Gku>G	0	78752	4068	970	78752
+gene - interaction - gene	GiG	0	297253	15211	15211	31575
+gene - downregulation - anatomy	GdA	0	102240	15097	36	102240
