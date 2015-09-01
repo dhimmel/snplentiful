@@ -2,6 +2,8 @@
 
 #### By [Daniel Himmelstein](http://dhimmel.com) and [Casey Greene](http://www.greenelab.com/)
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.30105.svg)](http://dx.doi.org/10.5281/zenodo.30105)
+
 ## Introduction
 
 SNP to gene translation is a hallmark of modern bioinformatics. Genomic technologies often produce data on the nucleotide level. Downstream analyses, however, often operate on the gene level. Therefore, condensing nucleotide-level measurements to a gene-based value is a common and essential practice.
