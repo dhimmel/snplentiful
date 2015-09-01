@@ -38,7 +38,7 @@ Beware! The potential for erroneous conclusions when gene scores are biased by S
 
 <a name="fig3"></a>
 ![The number of SNPs in a gene varies with network degree](figure/degree-v-snps-all.png)
-**Figure 3: Network degree versus SNP abundance for all metaedges.** The same as [Figure 1](#fig1) except that all metaedges with over 1,000 edges are shown. Additionally, genes with extreme SNP abundances were not removed.
+**Figure 3: Network degree versus SNP abundance for all metaedges.** The same as [Figure 1](#fig1) except that all metaedges with over 1,000 edges are shown. Additionally, genes with extreme SNP abundances were not removed. See [`download/network-summary.tsv`](download/network-summary.tsv) for abbreviation lookup and additional metaedge information.
 
 ## Execution
 
