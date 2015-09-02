@@ -1,4 +1,4 @@
-# The number of SNPs per gene correlates with network degree 
+# Highly connected genes contain more SNPs 
 
 #### By [Daniel Himmelstein](http://dhimmel.com) and [Casey Greene](http://www.greenelab.com/)
 
