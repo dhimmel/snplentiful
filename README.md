@@ -54,4 +54,4 @@ This analysis can be reproduced by running the Jupyter notebooks in the followin
 
 ## Acknowledgements
 
-This material is based upon work supported by the National Science Foundation Graduate Research Fellowship under Grant Number 1144247 to @dhimmel. This material is funded in part by the Gordon and Betty Moore Foundation’s Data-Driven Discovery Initiative through Grant GBMF4552 to @cgreene.
+This material is based upon work supported by the National Science Foundation Graduate Research Fellowship under Grant Number 1144247 to [**@dhimmel**](https://github.com/dhimmel). This material is funded in part by the Gordon and Betty Moore Foundation’s Data-Driven Discovery Initiative through Grant GBMF4552 to [**@cgreene**](https://github.com/cgreene).
