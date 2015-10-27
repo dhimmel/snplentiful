@@ -51,3 +51,7 @@ This analysis can be reproduced by running the Jupyter notebooks in the followin
 3. [`exac.ipynb`](exac.ipynb) to process the [ExAC](http://exac.broadinstitute.org/) sequencing variants.
 4. [`combine-SNPs-and-degrees.ipynb`](combine-SNPs-and-degrees.ipynb) to combine SNPs per Gene measurements from all platforms and hetnet degrees.
 5. [`visualization.ipynb`](visualization.ipynb) to create visualizations. This is an [R notebook](https://github.com/IRkernel/IRkernel).
+
+## Acknowledgements
+
+This material is based upon work supported by the National Science Foundation Graduate Research Fellowship under Grant Number 1144247 to @dhimmel. This material is funded in part by the Gordon and Betty Moore Foundation’s Data-Driven Discovery Initiative through Grant GBMF4552 to @cgreene.
