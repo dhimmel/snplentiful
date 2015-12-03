@@ -32,7 +32,7 @@ Beware! The potential for erroneous conclusions when gene scores are biased by S
 
 <a name="fig1"></a>
 ![The number of SNPs in a gene varies with network degree](figure/degree-v-snps.png)
-**Figure 1: Network degree versus SNP abundance for common data types.** Platform and metaedge specific models were fit. Models are drawn as their 95% confidence band. The genes with extreme SNP abundances (bottom and two two percentiles) are omitted for visual clarity.
+**Figure 1: Network degree versus SNP abundance for common data types.** Platform and metaedge specific models were fit. Models are drawn as their 95% confidence band. The genes with extreme SNP abundances (bottom and top two percentiles) are omitted for visual clarity.
 
 <a name="fig2"></a>
 ![The number of SNPs in a gene varies with network degree](figure/adj-degree-v-snps.png)
