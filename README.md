@@ -2,7 +2,7 @@
 
 #### By [Daniel Himmelstein](http://dhimmel.com) and [Casey Greene](http://www.greenelab.com/)
 
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.30105.svg)](http://dx.doi.org/10.5281/zenodo.30105)
+[![DOI](https://zenodo.org/badge/14475/dhimmel/snplentiful.svg)](https://zenodo.org/badge/latestdoi/14475/dhimmel/snplentiful)
 
 ## Introduction
 
@@ -27,6 +27,12 @@ Correlations between SNP abundance and network degree are commonplace. These cor
 ## Conclusions
 
 Beware! The potential for erroneous conclusions when gene scores are biased by SNP abundance is high. Ideally, permutation testing should be applied on the SNP level to ensure that SNP to gene conversion biases are not the cause of any positive results. Since access to the raw SNP level data needed for permutation is often impractical or unavailable, care should be taken to use unbiased SNP to gene conversion methods.
+
+## Publication
+
+A summary of this analysis which includes Figure 1 is published in:
+
+> Greene CS, Himmelstein DS (2016) [**Genetic Association–Guided Analysis of Gene Networks for the Study of Complex Traits**](https://doi.org/10.1161/CIRCGENETICS.115.001181). _Circulation: Cardiovascular Genetics_ DOI: 10.1161/CIRCGENETICS.115.001181
 
 ## Figures
 
