@@ -32,7 +32,10 @@ Beware! The potential for erroneous conclusions when gene scores are biased by S
 
 A summary of this analysis which includes Figure 1 is published in:
 
-> Greene CS, Himmelstein DS (2016) [**Genetic Association–Guided Analysis of Gene Networks for the Study of Complex Traits**](https://doi.org/10.1161/CIRCGENETICS.115.001181). _Circulation: Cardiovascular Genetics_ DOI: 10.1161/CIRCGENETICS.115.001181
+> **Genetic Association–Guided Analysis of Gene Networks for the Study of Complex Traits**  
+Casey S. Greene, Daniel S. Himmelstein  
+*Circulation: Cardiovascular Genetics* (2016-04) <https://doi.org/bffr>  
+DOI: [10.1161/circgenetics.115.001181](https://doi.org/10.1161/circgenetics.115.001181) · PMID: [27094199](https://www.ncbi.nlm.nih.gov/pubmed/27094199)
 
 ## Figures
 
